@@ -1,6 +1,7 @@
 <template>
   <div>
     <div id="nav">
+      <router-link to="/">Home</router-link> |
       <router-link to="/Threads/1">Threads</router-link> |
       <router-link to="/messages/1">Messages</router-link>
       <router-view />
@@ -44,9 +45,8 @@ export default {
 }
 .form-input {
   position: relative;
-  top: -20px;
-  left: 300px;
-  background-color: honeydew;
+  top: -10px;
+  left: 400px;
 }
 
 </style>

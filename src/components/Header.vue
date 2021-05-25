@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input v-model="userName" class="form-input" />
+    <div class="form-input">Enter your name: <input v-model="userName" /></div>
     <Threads />
   </div>
 </template>
